@@ -58,6 +58,7 @@ function showPopup(x, y, definitionHTML, word) {
         background: none;
         border: none;
         font-size: 18px;
+        font-weight: 900;
         cursor: pointer;
         color: #666;
       " title="Close">&times;</button>
@@ -87,12 +88,10 @@ function showPopup(x, y, definitionHTML, word) {
   @keyframes scrollOpen {
     0% {
       max-height: 0;
-      opacity: 0;
       transform: translateY(-10px);
     }
     100% {
       max-height: 1000px;
-      opacity: 1;
       transform: translateY(0);
     }
   }
@@ -137,4 +136,5 @@ function showPopup(x, y, definitionHTML, word) {
   });
 
   requestAnimationFrame(animate);
+
 }
