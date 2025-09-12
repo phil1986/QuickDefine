@@ -6,7 +6,7 @@
   "permissions": ["activeTab", "storage", "https://api.dictionaryapi.dev/"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "@extension-without-data-collection",
+      "id": "@quickdefine-extension",
       "data_collection_permissions": {
         "required": ["none"]
       }
@@ -22,4 +22,5 @@
   }
 
 }
+
 
